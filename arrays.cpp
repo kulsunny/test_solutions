@@ -168,7 +168,7 @@ int distinctMoves(std::string s, int n, int x, int y)
     int index = 0;
     distinctMovesSubsequence(s, n, x, y, index, path, uniqueStringSet);
     
-    for (auto x:uniqueStringSet)
-        std::cout << x << std::endl;
+    //for (auto x:uniqueStringSet)
+        //std::cout << x << std::endl;
     return (int)uniqueStringSet.size();
 }
